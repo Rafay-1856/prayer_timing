@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+}
+body {
+  background-color: black;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 220px;
+  height: 320px;
+  border: 2px solid grey;
+  text-align: center;
+}
+#clock {
+  font-size: 25px;
+  border: 1px solid grey;
+  color: darkgreen;
+  font-weight: bold;
+}
+.namaz_time {
+  font-size: 18px;
+  margin-top: 28px;
+  margin-left: 05px;
+  text-align: left;
+  /* font-size: 1.6rem; */
+  /* margin: 15px 0; */
+  position: relative;
+  /* padding-left: 60px; */
+}
+.namaz_time span {
+  color: red;
+  border: 1px solid grey;
+  text-align: end;
+}
+.green-dot {
+  position: absolute;
+  left: 85%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #00ff00; /* bright green */
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ff00;
+  animation: pulse 2s infinite;
+}
+h4 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: aqua;
+}
